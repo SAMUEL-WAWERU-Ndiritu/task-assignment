@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:98vh;
+    height: 89vh;
+    background-color: hsl(226, 43%, 10%);
+}
+.container{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+.grind{
+    display: grid;
+    grid-template-columns: repeat(1,4fr);
+    grid-template-rows: repeat(1,2fr);
+     grid-template-areas: 
+    "one two three four"
+     "one five six seven";
+     gap: 10px;
+}
+.one{
+    grid-area: one;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px;
+}
+.container__1{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(246, 80%, 60%);
+}
+.container__1 .one__2>{
+     color: whitesmoke;
+}
+.container__1 > .one__1 > img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin: 20px;
+}
+.container__2{
+    background-color:  hsl(235, 46%, 20%);
+    padding: 10px;
+}
+.container__2 > h4{
+    padding: 10px;
+    font-size: 16px;
+  color:grey;
+}
+.container__1 > .one__1 {
+  border-radius: 30px;
+  
+}
+
+.two{
+    grid-area: two;
+    display: flex;
+    flex-direction: column;
+color:white;
+border-radius:10px;
+object-fit:contain;
+align-items:center;
+padding:20px;
+
+ background-color:  hsl(235, 46%, 20%);
+
+
+}
+
+.three{
+    grid-area: three;
+    display: flex;
+    flex-direction: column;
+color:white;
+border-radius:10px;
+object-fit:contain;
+align-items:center;
+padding:20px;
+ background-color:  hsl(235, 46%, 20%);
+
+
+
+
+}
+.four{
+    grid-area: four;
+     display: flex;
+    flex-direction: column;
+object-fit:contain;
+align-items:center;
+padding:20px;
+color:white;
+border-radius:10px;
+ background-color:  hsl(235, 46%, 20%);
+
+
+
+}
+.four > four__2 > div {
+display:flex;
+justify-content:space-between;
+}
+.five{
+    grid-area: five;
+    display: flex;
+    flex-direction: column;
+object-fit:contain;
+align-items:center;
+padding:20px;
+color:white;
+border-radius:10px;
+ background-color:  hsl(235, 46%, 20%);
+
+
+
+}
+.five > five__2 > div {
+display:flex;
+justify-content:space-between;
+}
+.six{
+    grid-area: six;
+     display: flex;
+    flex-direction: column;
+color:white;
+object-fit:contain;
+align-items:center;
+padding:20px;
+border-radius:10px;
+ background-color:  hsl(235, 46%, 20%);
+
+
+}
+.six > six__2 > div {
+display:flex;
+justify-content:space-between;
+}
+.seven{
+    grid-area: seven;
+      display: flex;
+    flex-direction: column;
+color:white;
+object-fit:contain;
+align-items:center;
+padding:20px;
+border-radius:10px;
+ background-color:  hsl(235, 46%, 20%);
+
+
+}
+.six > six__2 > div {
+display:flex;
+justify-content:space-between;
+}
